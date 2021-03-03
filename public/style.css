@@ -1,0 +1,494 @@
+img {
+  height: 25rem;
+  width: 100%;
+}
+.card {
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-bottom: 2em;
+  height: 20%;
+}
+
+.price {
+  margin-top: 2em;
+  color: grey;
+  font-size: 22px;
+}
+.category {
+  margin-top: 1em;
+  margin-bottom: 7px;
+  color: grey;
+  font-size: 22px;
+}
+.name {
+  margin-bottom: 7px;
+  font-size: 18px;
+}
+
+.circle {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 400px;
+}
+.star {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 400px;
+  color: white;
+}
+
+.name {
+  font-family: "Times New Roman", serif;
+}
+.cards-container {
+  margin-left: 1em;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  background-color: white;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 12px;
+  color: grey;
+}
+
+th:first-child,
+td:first-child {
+  text-align: center;
+}
+
+.fa-check {
+  color: green;
+}
+
+.modal {
+  margin-top: 10%;
+  width: 30%;
+  margin-left: 40%;
+  background-color: white;
+  border: thin grey;
+}
+
+h2,
+h1 {
+  margin-top: 1em;
+  color: grey;
+}
+
+/* Rating-Reviews */
+.rating-container {
+  margin-right: 50px;
+}
+.body {
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 50px;
+  display: flex;
+}
+/* Rating-Average-Stars-style */
+.rating-average {
+  font-size: 100px;
+  font-weight: bold;
+  font-family: system-ui;
+  margin-top: 1rem;
+}
+.rating-star-container {
+  display: flex;
+  margin-top: 1rem;
+}
+.rating-div {
+  font-size: 17px !important;
+}
+.rating-stars {
+  margin-top: 48px;
+  margin-left: 9px;
+}
+
+/* Score bar style */
+.scorebars {
+  margin-top: 50px;
+}
+.scorebars-title {
+  font-family: "Shippori Mincho", serif;
+  font-size: 12px;
+}
+.rc-progress-line {
+  max-height: 0.5em;
+  min-height: 0.5em;
+  max-width: 15em;
+  min-width: none;
+}
+.bar-title {
+  max-width: 3em;
+  min-height: 0.5em;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+.oneBar {
+  max-width: 15em;
+  min-width: 15em;
+}
+.progressBar {
+  display: flex !important;
+  margin-top: 10px;
+}
+/* reviews */
+.top-review {
+  display: flex;
+  border-color: #0f1111;
+  color: #0f1111;
+  display: inline;
+  font-size: 16px;
+  font-weight: 900;
+}
+.reviews-tile {
+  margin-top: 50px;
+  display: block;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+}
+.stars-user {
+  display: flex;
+}
+.user-name {
+  margin-left: 200px;
+}
+.summary {
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 1000;
+}
+.review-body {
+  font-size: 13px;
+  margin-top: 10px;
+}
+.tile-container {
+  max-width: 38em;
+}
+.response-countainer {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.response {
+  font-weight: 1000;
+}
+.user-response {
+  margin-top: 10px;
+}
+.recommend-product {
+  margin-top: 10px;
+}
+.helpful-div {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 11px;
+  font-weight: 100;
+}
+.yes-ancer {
+  text-decoration: underline;
+
+  color: black;
+}
+.report-ancer {
+  text-decoration: underline;
+  color: black;
+}
+.yes-div {
+  margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  max-height: 15px;
+  min-height: 15px;
+}
+.helpul-number {
+  margin-right: 10px;
+}
+/* button-container-part*/
+.button-container {
+  display: flex;
+  margin-top: 30px;
+}
+
+.more-reviews-button {
+  padding: 17px 17px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+.add-reviews {
+  padding: 17px 30px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.fa {
+  margin-left: 15px;
+  font-weight: 200 !important;
+  font-size: 15px;
+}
+.close-model-review {
+  border-radius: 50%;
+  float: right;
+}
+.label-form {
+  margin-right: 10px;
+}
+/* .form-add-reviews {
+    display: block;
+  } */
+.btn-submit {
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.recommendyorn {
+  display: flex;
+}
+/*.spanrecommend {
+    font-weight: 200;
+  } */
+
+/* @import "node_modules/react-image-gallery/styles/css/image-gallery.css"; */
+.cont {
+  margin-left: 20px;
+}
+.star_rating_container {
+  width: 100%;
+}
+
+.stars {
+  display: inline-block;
+}
+.read-reviews {
+  color: rgb(104, 104, 104);
+  display: inline-block;
+  margin-left: 7px;
+  font-size: 13px;
+}
+.read-reviews:hover {
+  cursor: pointer;
+}
+.category-label {
+  margin-top: 10px;
+  color: rgb(120, 120, 120);
+  font-size: 25px;
+}
+
+.product-name {
+  color: rgb(80, 80, 80);
+  font-weight: bold;
+}
+.price {
+  color: rgb(96, 96, 96);
+}
+
+.lil-nav {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#img-cont {
+  width: 40%;
+  display: inline-block;
+}
+#general-cont {
+  display: inline-block;
+  margin-left: 15%;
+  max-width: 20rem;
+}
+#third {
+  height: 20rem;
+}
+
+.carouselImg {
+  width: 100%;
+  height: 40rem;
+}
+.ext-cont {
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 17rem;
+}
+
+.int-cont {
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  display: inline-block;
+}
+.carousel-container {
+  width: 130%;
+  display: inline-block;
+  margin: auto;
+}
+
+.gallery-cont {
+  display: inline-block;
+  height: 36rem;
+  background-color: rgb(232, 232, 232);
+}
+.thumbnail-image {
+  width: 5rem;
+  height: 5rem;
+}
+.thumbnail-image:hover {
+  cursor: pointer;
+}
+.thumbnail-container {
+  margin-bottom: 1rem;
+}
+.style-selector-thumbnail {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  background-color: rgb(80, 80, 80);
+  display: inline-block;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+.style-selector-thumbnail:hover {
+  cursor: pointer;
+}
+
+#style {
+  color: rgb(80, 80, 80);
+}
+.style-holder {
+  margin-top: 2rem;
+  margin-left: 20px;
+}
+
+.trick {
+  height: 5rem;
+  width: 2rem;
+  display: inline-block;
+}
+#Forest-Green-Black {
+  background: radial-gradient(black, #228b22);
+}
+#Desert-Brown-Tan {
+  background: radial-gradient(#d2b48c, #a15f3b);
+}
+#Ocean-Blue-Grey {
+  background: radial-gradient(grey, #0077be);
+}
+#Digital-Red-Black {
+  background: radial-gradient(black, #ff2d00);
+}
+#Sky-Blue-White {
+  background: radial-gradient(white, #00ffee);
+}
+#Dark-Grey-Black {
+  background: radial-gradient(black, rgb(80, 80, 80));
+}
+#style-selector-label {
+  font-size: 20px;
+}
+
+.size-selector-dropDown {
+  border-color: rgb(128, 128, 128);
+  border-width: 1px;
+}
+
+#opts {
+  height: 3rem;
+  width: 60%;
+  display: inline-block;
+  margin-right: 2rem;
+}
+#qunts {
+  height: 3rem;
+  width: 30%;
+}
+/*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* fix the style of the body */
+body {
+  font-family: "adobe-clean", sans-serif;
+}
+/* fix the style of each question */
+.question {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  justify-content: space-between;
+}
+/* fix the style of questions list */
+.questionList {
+  width: 90%;
+  margin: 0 auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 400px;
+  align-items: center;
+}
+
+.h {
+  cursor: pointer;
+}
+.haa {
+  cursor: pointer;
+}
+/* fix the style of each anchor tag */
+.anchor {
+  cursor: pointer;
+  font-size: 1em;
+  color: black;
+}
+/* fix the style of the answers */
+.answers-details {
+  display: flex;
+  align-items: center;
+  justify-content: space;
+  margin: 20px;
+}
+/* fix the style of the buttons that have className buttons */
+.buttons {
+  margin: 10px;
+  padding: 20px 5px;
+}
+/* fix the style of the header as h1 that has the className header */
+.header {
+  display: flex;
+  color: gray;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+/* fix the style of an anchor tag that has the className help*/
+.help {
+  cursor: pointer;
+  color: gray;
+}
+/* fix the style of a paragraph that have the className paragraph*/
+.paragraph {
+  color: gray;
+}
+.span {
+  color: gray;
+}
+/* fix the style of all images */
+.images {
+  display: flex;
+}
+/* fix the style of one image */
+.image {
+  display: flex;
+  height: 150px;
+  width: 250px;
+  justify-content: center;
+}
