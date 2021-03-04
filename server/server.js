@@ -2,7 +2,6 @@ const express = require("express");
 const morgan = require("morgan");
 const path = require("path");
 const router = require("./router");
-const { createProxyMiddleware } = require("http-proxy-middleware");
 const PUBLIC_DIR = path.resolve(__dirname, "..", "public");
 const app = express();
 var cors = require("cors");
@@ -33,6 +32,5 @@ app.use("/api", router.api);
 //   "/api/reviews",
 //   createProxyMiddleware({ target: "http://localhost:3004", changeOrigin: true })
 // );
-app.listen(3000);
 
 module.exports = app;

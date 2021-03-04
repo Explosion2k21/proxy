@@ -1,3 +1,32 @@
+/*NavBar*/
+.navbar {
+  background-color: gray;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 30 px;
+}
+li {
+  display: inline;
+}
+ul {
+  display: flex;
+  width: 100%;
+}
+.search-inp {
+  margin-left: 75%;
+}
+.logo-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.input-navbar {
+  border-bottom: 2px solid;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  background-color: gray;
+}
+/**/
 img {
   height: 25rem;
   width: 100%;
