@@ -51,11 +51,11 @@ module.exports = {
     url: "http://161.35.223.194:3002",
     bundle: "app.js",
   },
-  // service3: {
-  //   api: "/related",
-  //   url: "http://localhost:3003",
-  //   bundle: "app.js",
-  // },
+  service3: {
+    api: "/related",
+    url: "http://68.183.210.155:3003",
+    bundle: "app.js",
+  },
   // service4: {
   //   api: "/reviews",
   //   url: "http://46.101.100.159:3004",
