@@ -48,10 +48,9 @@ module.exports = {
   // },
   service2: {
     api: "/overview",
-    url: "http://159.65.127.126:3002",
+    url: "http://161.35.223.194:3002",
     bundle: "app.js",
-  }
-  ,
+  },
   // service3: {
   //   api: "/related",
   //   url: "http://localhost:3003",
