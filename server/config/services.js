@@ -41,11 +41,11 @@
 */
 
 module.exports = {
-  // service1: {
-  //   api: "/questions",
-  //   url: "http://localhost:3001",
-  //   bundle: "app.js",
-  // },
+  service1: {
+    api: "/questions",
+    url: "http://164.90.161.236:3001",
+    bundle: "app.js",
+  },
   service2: {
     api: "/overview",
     url: "http://161.35.223.194:3002",
