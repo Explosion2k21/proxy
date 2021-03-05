@@ -56,9 +56,9 @@ module.exports = {
     url: "http://68.183.210.155:3003",
     bundle: "app.js",
   },
-  // service4: {
-  //   api: "/reviews",
-  //   url: "http://206.81.26.204:3004",
-  //   bundle: "app.js",
-  // },
+  service4: {
+    api: "/reviews",
+    url: "http://206.81.26.204:3004",
+    bundle: "app.js",
+  },
 };
