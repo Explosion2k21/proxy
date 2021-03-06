@@ -5,7 +5,6 @@ const {
   service1,
   service3,
   service4,
-  //  service2, ,
 } = require("../config/services.js");
 
 const router = Router();
